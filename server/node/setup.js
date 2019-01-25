@@ -59,7 +59,7 @@ module.exports = {
           const pins = await stripe.products.create({
             id: 'pins',
             type: 'good',
-            name: 'Stripe Pins',
+            name: 'GUNK Cassette',
             attributes: ['set'],
           });
           await stripe.skus.create({
